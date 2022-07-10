@@ -1,0 +1,17 @@
+POST http://localhost:3000/customers/create
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "SangSang",
+    "address": {
+        "city": "Bac Lieu",
+        "country": "VN"
+    }
+}
+
+###
+GET http://localhost:3000/customers
+
+###
+DELETE  http://localhost:3000/customers/1
